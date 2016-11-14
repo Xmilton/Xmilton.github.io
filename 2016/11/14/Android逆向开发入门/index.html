@@ -15,21 +15,22 @@
 
 
 
-<meta name="description" content="最近学了下如何使用Hexo和GitHub来建立博客，遇到不少的坑，现在分享出来。">
+<meta name="description" content="最近遇到一个小需求，需要在一些App上加入自己App的广告，现在分享下如何在别人App上注入自己的代码，然后发布出去。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【学无止境】使用Hexo+Github来建立自己的博客">
-<meta property="og:url" content="http://yoursite.com/2016/10/31/hexo+github/index.html">
+<meta property="og:title" content="【学无止境】Android逆向开发入门">
+<meta property="og:url" content="http://yoursite.com/2016/11/14/Android逆向开发入门/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="最近学了下如何使用Hexo和GitHub来建立博客，遇到不少的坑，现在分享出来。">
-<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_1.png-default">
-<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_2.png-default">
-<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_3.png-default">
-<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_4.png-default">
-<meta property="og:updated_time" content="2016-11-14T17:03:47.000Z">
+<meta property="og:description" content="最近遇到一个小需求，需要在一些App上加入自己App的广告，现在分享下如何在别人App上注入自己的代码，然后发布出去。">
+<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/2_1.png-default">
+<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/2_2.png-default">
+<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/2_3.png-default">
+<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/2_4.png-default">
+<meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/2_5.png-default">
+<meta property="og:updated_time" content="2016-11-14T16:58:09.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="【学无止境】使用Hexo+Github来建立自己的博客">
-<meta name="twitter:description" content="最近学了下如何使用Hexo和GitHub来建立博客，遇到不少的坑，现在分享出来。">
-<meta name="twitter:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_1.png-default">
+<meta name="twitter:title" content="【学无止境】Android逆向开发入门">
+<meta name="twitter:description" content="最近遇到一个小需求，需要在一些App上加入自己App的广告，现在分享下如何在别人App上注入自己的代码，然后发布出去。">
+<meta name="twitter:image" content="http://oe3q8fjn2.bkt.clouddn.com/2_1.png-default">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -61,7 +62,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>【学无止境】使用Hexo+Github来建立自己的博客 | Hexo</title>
+<title>【学无止境】Android逆向开发入门 | Hexo</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -261,11 +262,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-hexo+github" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Android逆向开发入门" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/10/31/hexo+github/" class="article-date">
-      <time datetime="2016-10-31T08:55:36.000Z" itemprop="datePublished">2016-10-31</time>
+      <a href="/2016/11/14/Android逆向开发入门/" class="article-date">
+      <time datetime="2016-11-14T10:57:19.000Z" itemprop="datePublished">2016-11-14</time>
 </a>
 
 
@@ -280,7 +281,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      【学无止境】使用Hexo+Github来建立自己的博客
+      【学无止境】Android逆向开发入门
     </h1>
   
 
@@ -301,21 +302,32 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="Hexo搭建"><a href="#Hexo搭建" class="headerlink" title="Hexo搭建"></a>Hexo搭建</h2><h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><p>1.安装Node。<br>2.安装git。<br>3.安装hexo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g。</div><div class="line">```  </div><div class="line"></div><div class="line">4.初始化hexo</div><div class="line"></div><div class="line">``` bash</div><div class="line">hexo init &lt;folder&gt;</div></pre></td></tr></table></figure>
-<p>初始化完成后<code>cd &lt;folder&gt;</code>执行<code>npm install</code> ,来安装相应的插件，具体可以看&lt;folder&gt;目录下的package.json 。  </p>
-<h3 id="执行步骤"><a href="#执行步骤" class="headerlink" title="执行步骤"></a>执行步骤</h3><p>1.进入&lt;folder&gt;中，运行 <code>hexo generate</code>，生成静态页面。<br>2.执行<code>hexo server</code>，部署服务器之后就可以看到效果了,<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>(CTRL+C 停止服务器）。<br>3.如果能看到效果说明hexo已经可以正常使用，hexo还提供了许多<a href="https://hexo.io/themes/" target="_blank" rel="external">主题</a>，点击一个主题会发现其实是github上的开源项目，你只需要进入目录下的themes，执行 <code>git clone &lt;git上的链接&gt;</code> 即可获取对应的主题，例如：<a href="https://github.com/DrakeLeung/hexo-theme-again.git" target="_blank" rel="external">https://github.com/DrakeLeung/hexo-theme-again.git</a>。然后打开根目录下的_config.yml文件，修改theme,<code>theme: again</code>（具体值看README)。  </p>
-<h2 id="Hexo部署在Github"><a href="#Hexo部署在Github" class="headerlink" title="Hexo部署在Github"></a>Hexo部署在Github</h2><p>1.注册Github账号。<br>2.创建Repo仓库，必须以github.io结尾。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_1.png-default" alt="图片"><br>3.配置_config.yml文件：<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_2.png-default" alt="图片"><br>4.执行<code>hexo d</code>后，会要求输入git账号密码，输入即可。部署成功后，输入你的仓库地址就能访问博客了：<a href="yourname.github.io">yourname.github.io</a>。<br>5.如果需要发表一篇新的博文，只需要输入<code>hexo new post 博文名字</code>即可。其实post是可选的样式，具体在<code>scaffolds</code>目录中。成功完毕后可以在<code>source/_posts</code>上找到对应的博文。<br>常用命令：  </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean //清除缓存</div><div class="line">hexo generate //生成静态页面</div><div class="line">hexo deploy //push到git上</div><div class="line">hexo server //部署到服务器上</div></pre></td></tr></table></figure>
-<h2 id="添加个人域名"><a href="#添加个人域名" class="headerlink" title="添加个人域名"></a>添加个人域名</h2><ol>
-<li>拥有自己的域名，可以去<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>购买。  </li>
-<li>购买一个DNS解析服务（同样可以使用万网），并且配置好解析设置。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_3.png-default" alt="图片"><br>（其中纪录值改成自己yourname.github.io的地址）  </li>
-<li>第一次申请的域名还需要实名审核，大概1天就可以访问了。  </li>
-<li>如果要想把你的yourname.github.io跳转到你域名上，还需要在github上新建一个CHAME文件，里面填入你自己域名即可。  </li>
+        <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><ol>
+<li>配置好JDK和Android SDK。  </li>
+<li>下载<a href="http://oe3q8fjn2.bkt.clouddn.com/apktool.jar" target="_blank" rel="external">ApkTool</a>，用来反编译apk和重新打包成apk。  </li>
+<li>下载<a href="http://oe3q8fjn2.bkt.clouddn.com/Auto-sign.rar" target="_blank" rel="external">Auto-sign</a>，并且解压，这是用来对Apk进行重新签名的。  </li>
+<li>找到需要逆向开发的App（这个按个人需求定啦），为了实验，我就在网上随便找了个<a href="http://oe3q8fjn2.bkt.clouddn.com/com.pedometers_220545.apk" target="_blank" rel="external">计步器App</a>。 a </li>
 </ol>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p>####1. 执行<code>hexo deploy</code>时报出<em>ERROR Deployer not found: git</em>  错误。<br>遇到这个问题是因为没有安装hexo的git插件，执行<code>npm install hexo-deployer-git --save</code>。默认配置下，只需要在博客目录下执行<code>npm install</code>就会安装目录下package.json配置的插件。</p>
-<p>####2. 执行<code>hexo deploy</code>时报出<em>fatal: could not read Username for GitHub</em>错误。<br>遇到这个问题一般是因为在window下得cmd上操作，可以尝试使用git bash或者cygwin下进行，这样执行<code>hexo deploy</code>后，它才会要求你输入github的账号密码。    </p>
-<p>####3. 执行<code>hexo generate</code>时报出<em>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1</em>错误。<br>遇到这个错误一般是要发表的文章的格式错误<img src="http://oe3q8fjn2.bkt.clouddn.com/1_4.png-default" alt="图片">注意里面的title: 、 tag: 和description: 冒号后面都是需要空格再加上内容的。</p>
+<p>到目前为止，我们已经把逆向开发的环境准备好了。  </p>
+<h3 id="开发实践"><a href="#开发实践" class="headerlink" title="开发实践"></a>开发实践</h3><p>现在我们要对这个apk注入一个按钮，点击这个按钮可以弹出一个Toast。  </p>
+<ol>
+<li>首先需要反编译Apk，把Apk和ApkTool放到同一目录，输入<br><code>java -jar apktool.jar d com.pedometers_220545.apk</code>后回车，即可在当前目录下，生成com.pedometers_220545 目录。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/2_1.png-default" alt="apktool用法"><br><em>注：apktool用法</em></li>
+<li>打开com.pedometers_220545目录，可以看到<br><img src="http://oe3q8fjn2.bkt.clouddn.com/2_2.png-default" alt="图片">  <ul>
+<li><em>–AndroidManifest.xml</em>: 就是Android常见的文件，反编译后也可以直接阅读，里面声明了Activity等。如果你想增加一个Activity或者修改包名等，就应该对它进行修改。  </li>
+<li><em>–apktool.yml</em>: 属于反编译配置文件，重新打包时必须有，一般不用修改。</li>
+<li><em>–original</em>: 里面有重新打包的AndroidManifest.xml和签名文件，一般不用修改。  </li>
+<li><em>–res</em>: apk里的资源文件和使用的id。<ul>
+<li><em>-drawable</em>: apk的drawable资源，例如图片和自定义shape。</li>
+<li><em>-layout</em>: apk的布局文件。</li>
+<li><em>-values</em>: 里面有apk的颜色值、字符串、数组等定义文件，其中public.xml定义了app的所有自定义值的id，如果有新增加的值，必须要在public.xml上加上对应的id。</li>
+</ul>
+</li>
+<li><em>–smali</em>: app的主要业务代码，使用的是smali语法（Dalvik虚拟机使用的汇编器），我们通常在这个目录下进行逆向开发。所以熟悉smali语法则是熟悉逆向开发的必要条件。具体语法这里就不介绍了，可以看<a href="http://mobile.51cto.com/aprogram-464015.htm" target="_blank" rel="external">http://mobile.51cto.com/aprogram-464015.htm</a>。  </li>
+</ul>
+</li>
+<li>打开AndroidManifest.xml，可以发现app的结构<img src="http://oe3q8fjn2.bkt.clouddn.com/2_3.png-default" alt="图片"><br>可以发现，Pedometer是App的启动Activity。我们在Smali目录中找到Pedometer.smali(注意，每一个类都有一个*.smali，这点和java的*.class类似)，现在我们找到onCreate方法，然后在调用setContentView方法后面加入按钮和点击事件。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/2_4.png-default" alt="图片"><br>(代码都会在附录中给出）<br>这里有一点需要注意，由于Android为了提高性能，把变量都存放在寄存器中，其中v表示本地寄存器，p表示参数寄存器，本地寄存器总数在方法第一行中声明。onCreate方法第一行<code>.locals 14</code>表示需要14个本地寄存器。最后再加入Pedometer$10.smali，这个类表示我们注入按钮的Onclick事件的匿名内部类。(注意，这些smali代码都不用自己写，可以使用工具把java转化成smali。）以上，我们已经成功的在原app上注入了我们的代码，现在只需在终端上输入<code>java -jar apktool.jar b com.pedometers_220545.apk</code>后回车，即可在/com.pedometers_220545/dist目录上找到com.pedometers_220545.apk。  </li>
+<li>此时如果我们安装这个apk就会发现，出现了<strong>Failure [INSTALL_PARSE_FAILED_NO_CERTIFICATES]</strong>错误<br>这是因为Android程序都需要签名才能安装，所以我们需要对这个apk重新签名，这就需要用到开头下载的Auto-sign工具。进入Auto-sign目录，输入<code>java -jar signapk.jar testkey.x509.pem testkey.pk8 om.pedometers_220545.apk com.pedometers_220545_signed.apk</code>后回车（注意得把dist目录的apk放入Auto-sign下）就会生成已经签名好的com.pedometers_220545_signed.apk，这时候就可以成功安装了。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/2_5.png-default" alt="图片"><br>（可以看到，我们已经成功注入了广告😂）  <h3 id="To-be-continue…"><a href="#To-be-continue…" class="headerlink" title="To be continue…"></a>To be continue…</h3></li>
+</ol>
 
       
     </div>
@@ -324,13 +336,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/10/31/hexo+github/">【学无止境】使用Hexo+Github来建立自己的博客</a></p>
+        <p><span>本文标题:</span><a href="/2016/11/14/Android逆向开发入门/">【学无止境】Android逆向开发入门</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">Xmilton</a></p>
-        <p><span>发布时间:</span>2016-10-31, 16:55:36</p>
-        <p><span>最后更新:</span>2016-11-15, 01:03:47</p>
+        <p><span>发布时间:</span>2016-11-14, 18:57:19</p>
+        <p><span>最后更新:</span>2016-11-15, 00:58:09</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/10/31/hexo+github/" title="【学无止境】使用Hexo+Github来建立自己的博客">http://yoursite.com/2016/10/31/hexo+github/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/10/31/hexo+github/　　作者: Xmilton" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/11/14/Android逆向开发入门/" title="【学无止境】Android逆向开发入门">http://yoursite.com/2016/11/14/Android逆向开发入门/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/11/14/Android逆向开发入门/　　作者: Xmilton" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -342,12 +354,12 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/11/14/Android逆向开发入门/">
-                    【学无止境】Android逆向开发入门
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/10/31/hexo+github/">
+                    【学无止境】使用Hexo+Github来建立自己的博客
                 </a>
             </div>
-        
         
     </nav>
 
@@ -357,7 +369,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo搭建"><span class="toc-number">1.</span> <span class="toc-text">Hexo搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#环境配置"><span class="toc-number">1.1.</span> <span class="toc-text">环境配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#执行步骤"><span class="toc-number">1.2.</span> <span class="toc-text">执行步骤</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo部署在Github"><span class="toc-number">2.</span> <span class="toc-text">Hexo部署在Github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#添加个人域名"><span class="toc-number">3.</span> <span class="toc-text">添加个人域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常见问题"><span class="toc-number">4.</span> <span class="toc-text">常见问题</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#前期准备"><span class="toc-number">1.</span> <span class="toc-text">前期准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#开发实践"><span class="toc-number">2.</span> <span class="toc-text">开发实践</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#To-be-continue…"><span class="toc-number">3.</span> <span class="toc-text">To be continue…</span></a></li></ol>
         
     </div>
     <style>
@@ -393,7 +405,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"【学无止境】使用Hexo+Github来建立自己的博客　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"【学无止境】Android逆向开发入门　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -413,15 +425,15 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/11/14/Android逆向开发入门/" title="上一篇: 【学无止境】Android逆向开发入门">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2016/10/31/hexo+github/" title="下一篇: 【学无止境】使用Hexo+Github来建立自己的博客">
+                <i class="fa fa-angle-right"></i>
+            </a>
         
     </div>
 
