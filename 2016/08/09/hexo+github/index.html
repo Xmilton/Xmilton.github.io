@@ -18,14 +18,14 @@
 <meta name="description" content="最近学了下如何使用Hexo和GitHub来建立博客，遇到不少的坑，现在分享出来。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【学无止境】使用Hexo+Github来建立自己的博客">
-<meta property="og:url" content="http://yoursite.com/2016/08/09/hexo+github/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:url" content="http://Xmilton.com/2016/08/09/hexo+github/index.html">
+<meta property="og:site_name" content=" 小明">
 <meta property="og:description" content="最近学了下如何使用Hexo和GitHub来建立博客，遇到不少的坑，现在分享出来。">
 <meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_1.png-default">
 <meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_2.png-default">
 <meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_3.png-default">
 <meta property="og:image" content="http://oe3q8fjn2.bkt.clouddn.com/1_4.png-default">
-<meta property="og:updated_time" content="2016-11-15T02:47:11.000Z">
+<meta property="og:updated_time" content="2016-11-16T04:08:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【学无止境】使用Hexo+Github来建立自己的博客">
 <meta name="twitter:description" content="最近学了下如何使用Hexo和GitHub来建立博客，遇到不少的坑，现在分享出来。">
@@ -34,7 +34,7 @@
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
 
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title=" 小明" type="application/atom+xml">
 
 
 
@@ -61,7 +61,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>【学无止境】使用Hexo+Github来建立自己的博客 | Hexo</title>
+<title>【学无止境】使用Hexo+Github来建立自己的博客 |  小明</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -146,11 +146,11 @@
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
                     <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
+                        <li>Menu</li>
+                        <li>Tags</li>
                         
                         
-                        <li>关于我</li>
+                        <li>About Me</li>
                         
                     </ul>
                 </div>
@@ -250,7 +250,7 @@
             </nav>
         </header>                
     </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+    <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
 </nav>
       <div class="body-wrap"><article id="post-hexo+github" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -259,15 +259,6 @@
       <time datetime="2016-08-09T02:05:00.000Z" itemprop="datePublished">2016-08-09</time>
 </a>
 
- 
-    <a href="/2016/08/09/hexo+github/#comments" title="查看评论">
-        <i class="fa fa-comments-o" aria-hidden="true"></i>
-        <span class="count-comment"></span>
-        
-            <span class="ds-thread-count" ></span>
-        
-        
-    </a>
 
     </div>
   
@@ -301,21 +292,41 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h2 id="Hexo搭建"><a href="#Hexo搭建" class="headerlink" title="Hexo搭建"></a>Hexo搭建</h2><h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><p>1.安装Node。<br>2.安装git。<br>3.安装hexo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g。</div><div class="line">```  </div><div class="line"></div><div class="line">4.初始化hexo</div><div class="line"></div><div class="line">``` bash</div><div class="line">hexo init &lt;folder&gt;</div></pre></td></tr></table></figure>
+        <h1 id="Hexo搭建"><a href="#Hexo搭建" class="headerlink" title="Hexo搭建"></a>Hexo搭建</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><ol>
+<li>安装Node。  </li>
+<li>安装git。  </li>
+<li><p>安装hexo  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g。</div></pre></td></tr></table></figure>
+</li>
+<li><p>初始化hexo  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init &lt;folder&gt;</div></pre></td></tr></table></figure>
+</li>
+</ol>
 <p>初始化完成后<code>cd &lt;folder&gt;</code>执行<code>npm install</code> ,来安装相应的插件，具体可以看&lt;folder&gt;目录下的package.json 。  </p>
-<h3 id="执行步骤"><a href="#执行步骤" class="headerlink" title="执行步骤"></a>执行步骤</h3><p>1.进入&lt;folder&gt;中，运行 <code>hexo generate</code>，生成静态页面。<br>2.执行<code>hexo server</code>，部署服务器之后就可以看到效果了,<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>(CTRL+C 停止服务器）。<br>3.如果能看到效果说明hexo已经可以正常使用，hexo还提供了许多<a href="https://hexo.io/themes/" target="_blank" rel="external">主题</a>，点击一个主题会发现其实是github上的开源项目，你只需要进入目录下的themes，执行 <code>git clone &lt;git上的链接&gt;</code> 即可获取对应的主题，例如：<a href="https://github.com/DrakeLeung/hexo-theme-again.git" target="_blank" rel="external">https://github.com/DrakeLeung/hexo-theme-again.git</a>。然后打开根目录下的_config.yml文件，修改theme,<code>theme: again</code>（具体值看README)。  </p>
-<h2 id="Hexo部署在Github"><a href="#Hexo部署在Github" class="headerlink" title="Hexo部署在Github"></a>Hexo部署在Github</h2><p>1.注册Github账号。<br>2.创建Repo仓库，必须以github.io结尾。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_1.png-default" alt="图片"><br>3.配置_config.yml文件：<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_2.png-default" alt="图片"><br>4.执行<code>hexo d</code>后，会要求输入git账号密码，输入即可。部署成功后，输入你的仓库地址就能访问博客了：<a href="yourname.github.io">yourname.github.io</a>。<br>5.如果需要发表一篇新的博文，只需要输入<code>hexo new post 博文名字</code>即可。其实post是可选的样式，具体在<code>scaffolds</code>目录中。成功完毕后可以在<code>source/_posts</code>上找到对应的博文。<br>常用命令：  </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean //清除缓存</div><div class="line">hexo generate //生成静态页面</div><div class="line">hexo deploy //push到git上</div><div class="line">hexo server //部署到服务器上</div></pre></td></tr></table></figure>
-<h2 id="添加个人域名"><a href="#添加个人域名" class="headerlink" title="添加个人域名"></a>添加个人域名</h2><ol>
+<h2 id="执行步骤"><a href="#执行步骤" class="headerlink" title="执行步骤"></a>执行步骤</h2><ol>
+<li>进入&lt;folder&gt;中，运行 <code>hexo generate</code>，生成静态页面。  </li>
+<li>执行<code>hexo server</code>，部署服务器之后就可以看到效果了,<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>(CTRL+C 停止服务器）。  </li>
+<li>如果能看到效果说明hexo已经可以正常使用，hexo还提供了许多<a href="https://hexo.io/themes/" target="_blank" rel="external">主题</a>，点击一个主题会发现其实是github上的开源项目，你只需要进入目录下的themes，执行 <code>git clone &lt;git上的链接&gt;</code> 即可获取对应的主题，例如：<a href="https://github.com/DrakeLeung/hexo-theme-again.git" target="_blank" rel="external">https://github.com/DrakeLeung/hexo-theme-again.git</a>。然后打开根目录下的_config.yml文件，修改theme,<code>theme: again</code>（具体值看README)。     </li>
+</ol>
+<h1 id="Hexo部署在Github"><a href="#Hexo部署在Github" class="headerlink" title="Hexo部署在Github"></a>Hexo部署在Github</h1><ol>
+<li>注册Github账号。  </li>
+<li>创建Repo仓库，必须以github.io结尾。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_1.png-default" alt="图片"></li>
+<li>配置_config.yml文件：<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_2.png-default" alt="图片"></li>
+<li>执行<code>hexo d</code>后，会要求输入git账号密码，输入即可。部署成功后，输入你的仓库地址就能访问博客了：<a href="yourname.github.io">yourname.github.io</a>。  </li>
+<li>如果需要发表一篇新的博文，只需要输入<code>hexo new post 博文名字</code>即可。其实post是可选的样式，具体在<code>scaffolds</code>目录中。成功完毕后可以在<code>source/_posts</code>上找到对应的博文。  </li>
+</ol>
+<p>常用命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo clean //清除缓存  </div><div class="line">hexo generate //生成静态页面  </div><div class="line">hexo deploy //push到git上  </div><div class="line">hexo server //部署到服务器上</div></pre></td></tr></table></figure></p>
+<h1 id="添加个人域名"><a href="#添加个人域名" class="headerlink" title="添加个人域名"></a>添加个人域名</h1><ol>
 <li>拥有自己的域名，可以去<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>购买。  </li>
 <li>购买一个DNS解析服务（同样可以使用万网），并且配置好解析设置。<br><img src="http://oe3q8fjn2.bkt.clouddn.com/1_3.png-default" alt="图片"><br>（其中纪录值改成自己yourname.github.io的地址）  </li>
 <li>第一次申请的域名还需要实名审核，大概1天就可以访问了。  </li>
 <li>如果要想把你的yourname.github.io跳转到你域名上，还需要在github上新建一个CHAME文件，里面填入你自己域名即可。  </li>
 </ol>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h4 id="1-执行hexo-deploy时报出ERROR-Deployer-not-found-git-错误。"><a href="#1-执行hexo-deploy时报出ERROR-Deployer-not-found-git-错误。" class="headerlink" title="1. 执行hexo deploy时报出ERROR Deployer not found: git  错误。"></a>1. 执行<code>hexo deploy</code>时报出<em>ERROR Deployer not found: git</em>  错误。</h4><p>遇到这个问题是因为没有安装hexo的git插件，执行<code>npm install hexo-deployer-git --save</code>。默认配置下，只需要在博客目录下执行<code>npm install</code>就会安装目录下package.json配置的插件。</p>
-<h4 id="2-执行hexo-deploy时报出fatal-could-not-read-Username-for-GitHub错误。"><a href="#2-执行hexo-deploy时报出fatal-could-not-read-Username-for-GitHub错误。" class="headerlink" title="2. 执行hexo deploy时报出fatal: could not read Username for GitHub错误。"></a>2. 执行<code>hexo deploy</code>时报出<em>fatal: could not read Username for GitHub</em>错误。</h4><p>遇到这个问题一般是因为在window下得cmd上操作，可以尝试使用git bash或者cygwin下进行，这样执行<code>hexo deploy</code>后，它才会要求你输入github的账号密码。    </p>
-<h4 id="3-执行hexo-generate时报出YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-4-column-1错误。"><a href="#3-执行hexo-generate时报出YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-4-column-1错误。" class="headerlink" title="3. 执行hexo generate时报出YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1错误。"></a>3. 执行<code>hexo generate</code>时报出<em>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1</em>错误。</h4><p>遇到这个错误一般是要发表的文章的格式错误<img src="http://oe3q8fjn2.bkt.clouddn.com/1_4.png-default" alt="图片">注意里面的title: 、 tag: 和description: 冒号后面都是需要空格再加上内容的。</p>
+<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><ol>
+<li>执行<code>hexo deploy</code>时报出<strong><em>ERROR Deployer not found: git</em></strong>  错误。<br>遇到这个问题是因为没有安装hexo的git插件，执行<code>npm install hexo-deployer-git --save</code>。默认配置下，只需要在博客目录下执行<code>npm install</code>就会安装目录下package.json配置的插件。</li>
+<li>执行<code>hexo deploy</code>时报出<strong><em>fatal: could not read Username for GitHub</em></strong>错误。<br>遇到这个问题一般是因为在window下得cmd上操作，可以尝试使用git bash或者cygwin下进行，这样执行<code>hexo deploy</code>后，它才会要求你输入github的账号密码。    </li>
+<li>执行<code>hexo generate</code>时报出<strong><em>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1</em></strong>错误。<br>遇到这个错误一般是要发表的文章的格式错误<img src="http://oe3q8fjn2.bkt.clouddn.com/1_4.png-default" alt="图片">注意里面的title: 、 tag: 和description: 冒号后面都是需要空格再加上内容的。</li>
+</ol>
 
       
     </div>
@@ -324,17 +335,17 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/08/09/hexo+github/">【学无止境】使用Hexo+Github来建立自己的博客</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">Xmilton</a></p>
-        <p><span>发布时间:</span>2016-08-09, 10:05:00</p>
-        <p><span>最后更新:</span>2016-11-15, 10:47:11</p>
+        <p><span>Title:</span><a href="/2016/08/09/hexo+github/">【学无止境】使用Hexo+Github来建立自己的博客</a></p>
+        <p><span>Author:</span><a href="/" title="Back to Homepage">Xmilton</a></p>
+        <p><span>Created:</span>2016-08-09, 10:05:00</p>
+        <p><span>Updated:</span>2016-11-16, 12:08:17</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/08/09/hexo+github/" title="【学无止境】使用Hexo+Github来建立自己的博客">http://yoursite.com/2016/08/09/hexo+github/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/08/09/hexo+github/　　作者: Xmilton" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>Full URL:</span><a class="post-url" href="/2016/08/09/hexo+github/" title="【学无止境】使用Hexo+Github来建立自己的博客">http://Xmilton.com/2016/08/09/hexo+github/</a>
+            <span class="copy-path" data-clipboard-text="From http://Xmilton.com/2016/08/09/hexo+github/　　By Xmilton" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+            <span>License:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"CC BY-NC-SA 4.0"</a> Keep Link &amp; Author if Distribute.
         </p>
     </div>
 
@@ -355,9 +366,9 @@
 </article>
 
     <div id="toc" class="toc-article">
-        <strong class="toc-title">文章目录</strong>
+        <strong class="toc-title">Contents</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo搭建"><span class="toc-number">1.</span> <span class="toc-text">Hexo搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#环境配置"><span class="toc-number">1.1.</span> <span class="toc-text">环境配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#执行步骤"><span class="toc-number">1.2.</span> <span class="toc-text">执行步骤</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo部署在Github"><span class="toc-number">2.</span> <span class="toc-text">Hexo部署在Github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#添加个人域名"><span class="toc-number">3.</span> <span class="toc-text">添加个人域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常见问题"><span class="toc-number">4.</span> <span class="toc-text">常见问题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-执行hexo-deploy时报出ERROR-Deployer-not-found-git-错误。"><span class="toc-number">4.0.1.</span> <span class="toc-text">1. 执行hexo deploy时报出ERROR Deployer not found: git  错误。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-执行hexo-deploy时报出fatal-could-not-read-Username-for-GitHub错误。"><span class="toc-number">4.0.2.</span> <span class="toc-text">2. 执行hexo deploy时报出fatal: could not read Username for GitHub错误。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-执行hexo-generate时报出YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-4-column-1错误。"><span class="toc-number">4.0.3.</span> <span class="toc-text">3. 执行hexo generate时报出YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1错误。</span></a></li></ol></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Hexo搭建"><span class="toc-number">1.</span> <span class="toc-text">Hexo搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#环境配置"><span class="toc-number">1.1.</span> <span class="toc-text">环境配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#执行步骤"><span class="toc-number">1.2.</span> <span class="toc-text">执行步骤</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Hexo部署在Github"><span class="toc-number">2.</span> <span class="toc-text">Hexo部署在Github</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#添加个人域名"><span class="toc-number">3.</span> <span class="toc-text">添加个人域名</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#常见问题"><span class="toc-number">4.</span> <span class="toc-text">常见问题</span></a></li></ol>
         
     </div>
     <style>
@@ -371,10 +382,10 @@
         }
     </style>
 
-    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+    <input type="button" id="tocButton" value="Hide"  title="Show or Hide Table of Contents">
 
     <script>
-        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+        yiliaConfig.toc = ["Hide", "Show", !!"false"];
     </script>
 
 
@@ -393,7 +404,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"【学无止境】使用Hexo+Github来建立自己的博客　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"【学无止境】使用Hexo+Github来建立自己的博客　|  小明　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -409,7 +420,7 @@
     
       <div class="duoshuo" id="comments">
     <div id="comment-box" ></div>
-    <div class="ds-thread" id="ds-thread" data-thread-key="2016/08/09/hexo+github/" data-title="【学无止境】使用Hexo+Github来建立自己的博客" data-url="http://yoursite.com/2016/08/09/hexo+github/"></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="2016/08/09/hexo+github/" data-title="【学无止境】使用Hexo+Github来建立自己的博客" data-url="http://Xmilton.com/2016/08/09/hexo+github/"></div>
     <script>
         var duoshuoQuery = {short_name:"xmilton"};
         var loadComment = function(){
@@ -420,46 +431,9 @@
         }
 
         
-            // Add comment count
-            $(function(){ 
-                var jsonUrl = "http://api.duoshuo.com/threads/counts.jsonp?short_name=xmilton&threads=2016/08/09/hexo+github/&callback=?";
-                $.getJSON(jsonUrl, function(result){
-                    $.each(result.response, function(i, field){
-                        var value = field.comments;
-                        if (value > 0) {
-                            $(".count-comment").text(value);
-                            return;
-                        }
-                    })
-                })
-            })
-        
     </script>
     
-    <aside class="comment-bar">
-        <a href="javascript:void(0);">
-            <i class="fa fa-commenting-o animated infinite pulse"></i>
-            <i class="fa fa-spinner fa-pulse"></i>
-            <span class="count-comment"></span>
-        </a>
-    </aside>
-    <script>
-        var $commentBar = $("#comments aside.comment-bar");
-        var load$hide = function(){
-            $commentBar.find("a > i").toggle();
-            loadComment();
-            $commentBar.fadeOut(800);
-        }
-        $commentBar.click(function(){
-            load$hide();
-        })
-        $commentBar.children("a").hover(function(){
-            load$hide();
-        })
-        if (window.location.hash === "#comments") {
-            load$hide();
-        }
-    </script>
+    <script> loadComment(); </script>
 
 </div>
     
@@ -469,15 +443,15 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/11/14/Android逆向开发入门/" title="上一篇: 【学无止境】Android逆向开发入门">
+            <a href="/2016/11/14/Android逆向开发入门/" title="Pre: 【学无止境】Android逆向开发入门">
                 <i class="fa fa-angle-left"></i>
             </a>
         
 
-        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        <a title="Mini Archives"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/" title="Back to Homepage"><i class="fa fa-home"></i></a>
         
     </div>
 
@@ -498,14 +472,14 @@
                 2016 Xmilton
             </div>
             <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+                <a href="http://hexo.io/" target="_blank" title="A fast, simple &amp; powerful blog framework">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="Another simple and elegant theme for Hexo  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
             </div>
         </div>
         
             <div class="visit">
                 
                     <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        <span id="site-visit" title="Site Visitors"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
                         </span>
                     </span>
                 
@@ -514,7 +488,7 @@
                 
                 
                     <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        <span id="page-visit"  title="Page Hits"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
                         </span>
                     </span>
                 
@@ -547,9 +521,9 @@
 
 
 <div class="scroll" id="scroll">
-    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+    <a href="#" title="Back to Top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="Comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="Go to Bottom"><i class="fa fa-arrow-down"></i></a>
 </div>
 <script>
     // Open in New Window
